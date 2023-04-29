@@ -68,6 +68,8 @@ services:
      - user-management
      - product-management
      - order-management
-
+     - payment-management
+     - productcheckout-management
+     - cart-management
 volumes:
  mongodb_data:
